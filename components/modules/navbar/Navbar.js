@@ -11,14 +11,14 @@ const Navbar = () => {
       <div className={styles.navbar_search}>
         <input
           type="text"
-          placeholder="جستجو کنید...."
+          placeholder="Search ...."
         />
         <span className={styles.navbar_search_icon}>
           <FontAwesomeIcon icon={faSearch} />
         </span>
       </div>
       <div className={styles.navbar_user_avatar}>
-        <img src="/images/avatar/avatar.png" alt="" />
+        <img src="/images/avatar/avatar.jpg" alt="" />
       </div>
     </nav>
   )

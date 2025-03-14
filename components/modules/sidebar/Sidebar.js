@@ -12,8 +12,8 @@ const Sidebar = () => {
     return (
         <aside className={styles.sidebar}>
             <div className={styles.sidebar_logo}>
-                <img src="/images/logo/logo.webp" alt="" />
-                <h3>سبزلرن</h3>
+                <img src="/images/logo/manida-logo.JPG" alt="" />
+                <h3>CMS</h3>
             </div>
             <ul className={styles.sidebar_links}>
                 <li>
