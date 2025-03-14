@@ -12,19 +12,19 @@ const Course = () => {
     <>
       <section className={styles.courses}>
         <div className={styles.courses_top}>
-          <h2 className={styles.courses_title}>دوره ها</h2>
+          <h2 className={styles.courses_title}>Courses </h2>
           <a
             href="#"
             className={styles.new_course_btn}
             onClick={() => setShowAddCourseModal(true)}
           >
-            اضافه کردن دوره جدید
+         Add new Course
           </a>
         </div>
         <ul className={styles.courses_list}>
-          <CoursesItem title="دوره PWA" image="/images/courses/PWA.jpg" />
+          <CoursesItem title="PWA Course" image="/images/courses/PWA.jpg" />
           <CoursesItem
-            title="دوره جاوا اسکریپت"
+            title="Java script Course  "
             image="/images/courses/js.png"
           />
         </ul>

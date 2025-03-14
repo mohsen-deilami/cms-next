@@ -11,13 +11,13 @@ const AddCourseModal = ({ hideAddCourseModal }) => {
             <div className={styles.modal_bg} onClick={hideAddCourseModal}></div>
             <div className={styles.modal_content}>
 
-                <h1 className={styles.modal_title}>اضافه کردن دوره جدید</h1>
+                <h1 className={styles.modal_title}>Add new Course   </h1>
                 <form action="#" className={styles.edit_user_form}>
                     <div className={styles.input_field}>
                         <span><FontAwesomeIcon icon={faTag} /></span>
                         <input
                             type="text"
-                            placeholder="نام دوره"
+                            placeholder="Course name "
                             spellcheck="false"
                         />
                     </div>
@@ -25,7 +25,7 @@ const AddCourseModal = ({ hideAddCourseModal }) => {
                         <span><FontAwesomeIcon icon={faCashRegister} /> </span>
                         <input
                             type="text"
-                            placeholder="قیمت دوره"
+                            placeholder="price course "
                             spellcheck="false"
                         />
                     </div>
@@ -33,7 +33,7 @@ const AddCourseModal = ({ hideAddCourseModal }) => {
                         <span><FontAwesomeIcon icon={faUser} /></span>
                         <input
                             type="text"
-                            placeholder="مدرس دوره"
+                            placeholder="Course instructor "
                             spellcheck="false"
                         />
                     </div>
@@ -43,7 +43,7 @@ const AddCourseModal = ({ hideAddCourseModal }) => {
                     </div>
 
                     <button type="submit" className={styles.update_btn}>
-                        اپدیت دوره
+                         Update
                     </button>
                 </form>
             </div>

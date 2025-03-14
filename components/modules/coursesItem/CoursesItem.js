@@ -27,7 +27,7 @@ const CoursesItem = ({ title, image }) => {
             onClick={() => setShowEditModal(true)}
           >
             {" "}
-            ویرایش{" "}
+            Edit{" "}
           </a>
           <a
             href="#"
@@ -35,7 +35,7 @@ const CoursesItem = ({ title, image }) => {
             onClick={() => setShowDeleteModal(true)}
           >
             {" "}
-            حذف{" "}
+            Delete{" "}
           </a>
         </div>
       </li>
